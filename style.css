@@ -207,12 +207,27 @@ footer p {
   line-height: normal;
 }
 
-@media (min-width: 433px) {
+@media (min-width: 435px) {
 
   body {
     max-width: fit-content;
   }
+  
+  /* header {
+    padding: 1.2rem 11.2rem;
+  
+  } */
 
+  nav{
+    align-items: center;
+  }
+
+  /* header form {
+    width: 108.3rem;
+    padding: 1.2rem 1.6rem 1.2rem 1.4rem;
+    align-items: center;
+    gap: 1.2rem;
+  } */
 
   main {
     background-color:var(--color-base-white1);
