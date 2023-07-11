@@ -24,7 +24,7 @@ html, body, input {
 body {
   font-size: 1.6rem;
   background-color: var(--color-base-white);
-  max-width: 43.2rem;
+  max-width: 115.9rem;
 }
 
 #app {
@@ -32,6 +32,7 @@ body {
   display: grid;
   grid-template-rows: max-content 1fr max-content;
   height: 100vh;
+  
 }
 
 
@@ -207,7 +208,7 @@ footer p {
   line-height: normal;
 }
 
-@media (min-width: 435px) {
+@media (min-width: 1160px) {
 
   body {
     max-width: fit-content;
@@ -222,6 +223,11 @@ footer p {
     background-color:var(--color-base-white1);
     
   } 
+
+  
+  section {
+    
+  }
 
   
   
@@ -258,14 +264,19 @@ section h1 {
 
 main .container {
 
+  max-width: 80rem;
+
   padding-top: 4.4rem;
   padding-left: 10.9rem;
   padding-right: 3.4rem;
   padding-bottom: 10.3rem;
 
+
 }
 
 section .container {
+
+
   padding-top:4.4rem; 
   padding-right: 10.9rem;
    padding-bottom: 29.5rem;
@@ -273,13 +284,24 @@ section .container {
 }
 
 main h1 {
-  display: inline-flex;
-  
+  /* display: inline-flex; */
+  /* padding-right: 36rem; */
+
+  margin-bottom: 3.1rem;
 }
+
+/* .a {
+  display: flex;
+  gap: .9rem;
+} */
+
 .cats {
-  display: inline-flex;
-  align-items: center;
+  display: flex;
+  align-items: flex-end;
   margin-top: 3.1rem;
-  
+  justify-content: space-between;
+  padding: 0;
+
+}
 
 }
